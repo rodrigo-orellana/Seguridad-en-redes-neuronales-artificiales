@@ -4,4 +4,8 @@ El objetivo de este proyecto es en primer lugar realizar un estudio del estado d
 
 ![ataque CNN placas matriculas](/img/attack.png)  
 
+<p align="center">
+  <img width="460" height="300" src="/img/attack.png">
+</p>
+
 La imagen muestra 6 resultados de ataques exitosos aplicados en un modelo CNN de identificación de placas matriculas, en donde se emplean pequeñas alteraciones a el dígito "uno" para que sea clasificado como un número distinto.
