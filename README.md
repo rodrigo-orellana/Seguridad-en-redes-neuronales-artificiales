@@ -12,3 +12,8 @@ El objetivo de este proyecto es en primer lugar realizar un estudio del estado d
 <p align="justify"> 
 La imagen muestra 6 resultados de ataques exitosos aplicados en un modelo CNN de identificación de placas matriculas, en donde se emplean pequeñas alteraciones a el dígito "uno" para que sea clasificado como un número distinto.
  </p>
+
+ # Experimentos: Jupyter Notebookd
+* [Adversary Attack en Fashion MNIST: Transferibilidad](/src/adversarie_attack_fashion_mnist.ipynb)
+* [Adversary Attack en MobileNetV2 y ImageNet](http://google.com)
+* [Adversarial Attack Placa de Matricula](http://google.com)
