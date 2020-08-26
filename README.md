@@ -14,6 +14,7 @@ La imagen muestra 6 resultados de ataques exitosos aplicados en un modelo CNN de
  </p>
 
  # Experimentos: Jupyter Notebookd
-* [Adversary Attack en Fashion MNIST: Transferibilidad](/src/adversarie_attack_fashion_mnist.ipynb)
-* [Adversary Attack en MobileNetV2 y ImageNet](http://google.com)
-* [Adversarial Attack Placa de Matricula](http://google.com)
+* [Adversary Attack en Fashion MNIST: Transferibilidad Adversarial Attack](/src/adversarie_attack_fashion_mnist.ipynb)
+* [Adversary Attack en MobileNetV2 y ImageNet: Señales de tránsito](/src/Adversary_Attack_MobileNetV2_ImageNet.ipynb)
+* [Adversarial Attack Placa de Matricula: Ataque digital](/src/Matricula%20ataque%20físico.ipynb)
+* [Adversarial Attack Placa de Matricula: Ataque físico](/src/Matricula%20ataque%20físico_impreso.ipynb)
