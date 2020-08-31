@@ -21,13 +21,13 @@ La imagen muestra 6 resultados de ataques exitosos aplicados en un modelo CNN de
 * [Adversarial Attack Placa de Matricula: Ataque físico](/src/Matricula%20ataque%20físico_impreso.ipynb)  
 
 ## Experimentos de robustez  
-* [Robustez 1](/src/defenza_adversarial_attack_digito_uno_intento1.ipynb)
-* [Robustez 2](/src/defenza_adversarial_attack_digito_uno_intento2.ipynb)
-* [Robustez 3](/src/defenza_adversarial_attack_digito_uno_intento3.ipynb)
-* [Robustez 4](/src/defenza_adversarial_attack_digito_uno_intento_4.ipynb)
+* [CNN Defensa 01](/src/defenza_adversarial_attack_digito_uno_intento1.ipynb)
+* [CNN Defensa 02](/src/defenza_adversarial_attack_digito_uno_intento2.ipynb)
+* [CNN Defensa 03](/src/defenza_adversarial_attack_digito_uno_intento3.ipynb)
+* [CNN Defensa 04](/src/defenza_adversarial_attack_digito_uno_intento_4.ipynb)
 
 <p align="center">
-  <img width="800" height="300" src="/img/tabla_defensas02.PNG">
+  <img width="800" height="250" src="/img/tabla_defensas02.PNG">
 </p>
 
 
