@@ -47,7 +47,10 @@ La imagen muestra 6 resultados de ataques exitosos aplicados en un modelo CNN de
 
 
   
-    
+
+
+  
+      
 <p align="center">
   <img src="/img/banner-02.png">
 </p>
