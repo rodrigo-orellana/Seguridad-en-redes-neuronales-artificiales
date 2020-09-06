@@ -35,7 +35,7 @@ La imagen muestra 6 resultados de ataques exitosos aplicados en un modelo CNN de
   
 ### Matrícula española
 
-* [CNN Defensa 03](defenza_adversarial_attack_digito_uno_intento3-ESP.ipynb)  
+* [CNN Defensa 03](/src/defenza_adversarial_attack_digito_uno_intento3-ESP.ipynb)  
   
 <p align="center">
   <img width="800" height="150" src="/img/tabla_defensas02_esp.PNG">
