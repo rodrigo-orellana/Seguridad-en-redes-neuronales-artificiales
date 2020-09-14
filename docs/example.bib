@@ -1,0 +1,587 @@
+@misc{r1,
+    title={Representation Learning: A Review and New Perspectives},
+    author={Yoshua Bengio and Aaron Courville and Pascal Vincent},
+    year={2012},
+    eprint={1206.5538},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+@article{r2,
+author = {Hinton, Geoffrey E. and Osindero, Simon and Teh, Yee-Whye},
+title = {A Fast Learning Algorithm for Deep Belief Nets},
+year = {2006},
+issue_date = {July 2006},
+publisher = {MIT Press},
+address = {Cambridge, MA, USA},
+volume = {18},
+number = {7},
+issn = {0899-7667},
+url = {https://doi.org/10.1162/neco.2006.18.7.1527},
+doi = {10.1162/neco.2006.18.7.1527},
+abstract = {We show how to use "complementary priors" to eliminate the explaining-away effects that make inference difficult in densely connected belief nets that have many hidden layers. Using complementary priors, we derive a fast, greedy algorithm that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory. The fast, greedy algorithm is used to initialize a slower learning procedure that fine-tunes the weights using a contrastive version of the wake-sleep algorithm. After fine-tuning, a network with three hidden layers forms a very good generative model of the joint distribution of handwritten digit images and their labels. This generative model gives better digit classification than the best discriminative learning algorithms. The low-dimensional manifolds on which the digits lie are modeled by long ravines in the free-energy landscape of the top-level associative memory, and it is easy to explore these ravines by using the directed connections to display what the associative memory has in mind.},
+journal = {Neural Comput.},
+month = jul,
+pages = {1527–1554},
+numpages = {28}
+}
+@misc{r3,
+    title={Explaining and Harnessing Adversarial Examples},
+    author={Ian J. Goodfellow and Jonathon Shlens and Christian Szegedy},
+    year={2014},
+    eprint={1412.6572},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@inproceedings{r4,
+title	= {Intriguing properties of neural networks},
+author	= {Christian Szegedy and Wojciech Zaremba and Ilya Sutskever and Joan Bruna and Dumitru Erhan and Ian Goodfellow and Rob Fergus},
+year	= {2014},
+URL	= {http://arxiv.org/abs/1312.6199},
+booktitle	= {International Conference on Learning Representations}
+}
+
+@ARTICLE{r5,
+  author={A. {Biondi} and F. {Nesti} and G. {Cicero} and D. {Casini} and G. {Buttazzo}},
+  journal={IEEE Embedded Systems Letters}, 
+  title={A Safe, Secure, and Predictable Software Architecture for Deep Learning in Safety-Critical Systems}, 
+  year={2020},
+  volume={12},
+  number={3},
+  pages={78-82},
+  abstract={In the last decade, deep learning techniques reached human-level performance in several specific tasks as image recognition, object detection, and adaptive control. For this reason, deep learning is being seriously considered by the industry to address difficult perceptual and control problems in several safety-critical applications (e.g., autonomous driving, robotics, and space missions). However, at the moment, deep learning software poses a number of issues related to safety, security, and predictability, which prevent its usage in safety-critical systems. This letter proposes a visionary software architecture that allows embracing deep learning while guaranteeing safety, security, and predictability by design. To achieve this goal, the architecture integrates multiple and diverse technologies, as hypervisors, run time monitoring, redundancy with diversity, predictive fault detection, fault recovery, and predictable resource management. Open challenges that stems from the proposed architecture are finally discussed.},
+  keywords={Software;Control systems;Safety;Computer architecture;Deep learning;Security;Virtual machine monitors;Deep learning;deep neural networks (DNNs);fault-tolerance;machine learning;predictability;safety;safety-critical systems;security},
+  doi={10.1109/LES.2019.2953253},
+  ISSN={1943-0671},
+  month={09},}
+  
+  @misc{r6,
+    title={Towards Deep Learning Models Resistant to Adversarial Attacks},
+    author={Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu},
+    year={2017},
+    eprint={1706.06083},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@misc{r7,
+    title={Adversarial Attacks and Defences: A Survey},
+    author={Anirban Chakraborty and Manaar Alam and Vishal Dey and Anupam Chattopadhyay and Debdeep Mukhopadhyay},
+    year={2018},
+    eprint={1810.00069},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+@article{r8,
+author = {Stallkamp, Johannes and Schlipsing, Marc and Salmen, Jan and Igel, Christian},
+year = {2012},
+month = {02},
+pages = {323-32},
+title = {Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition},
+volume = {32},
+journal = {Neural networks : the official journal of the International Neural Network Society},
+doi = {10.1016/j.neunet.2012.02.016}
+}
+@misc{r9,
+    title={Practical Black-Box Attacks against Machine Learning},
+    author={Nicolas Papernot and Patrick McDaniel and Ian Goodfellow and Somesh Jha and Z. Berkay Celik and Ananthram Swami},
+    year={2016},
+    eprint={1602.02697},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@INPROCEEDINGS{r10,  author={A. {Nguyen} and J. {Yosinski} and J. {Clune}},  booktitle={2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},   title={Deep neural networks are easily fooled: High confidence predictions for unrecognizable images},   year={2015},  volume={},  number={},  pages={427-436},  abstract={Deep neural networks (DNNs) have recently been achieving state-of-the-art performance on a variety of pattern-recognition tasks, most notably visual classification problems. Given that DNNs are now able to classify objects in images with near-human-level performance, questions naturally arise as to what differences remain between computer and human vision. A recent study [30] revealed that changing an image (e.g. of a lion) in a way imperceptible to humans can cause a DNN to label the image as something else entirely (e.g. mislabeling a lion a library). Here we show a related result: it is easy to produce images that are completely unrecognizable to humans, but that state-of-the-art DNNs believe to be recognizable objects with 99.99\% confidence (e.g. labeling with certainty that white noise static is a lion). Specifically, we take convolutional neural networks trained to perform well on either the ImageNet or MNIST datasets and then find images with evolutionary algorithms or gradient ascent that DNNs label with high confidence as belonging to each dataset class. It is possible to produce images totally unrecognizable to human eyes that DNNs believe with near certainty are familiar objects, which we call “fooling images” (more generally, fooling examples). Our results shed light on interesting differences between human vision and current DNNs, and raise questions about the generality of DNN computer vision.},  keywords={computer vision;convolution;evolutionary computation;image classification;neural nets;object recognition;deep neural networks;DNNs;unrecognizable images;pattern-recognition tasks;visual classification problems;computer vision;image labeling;recognizable objects;convolutional neural networks;ImageNet datasets;MNIST datasets;evolutionary algorithms;gradient ascent;fooling images;Biomedical imaging;Keyboards;Volcanoes},  doi={10.1109/CVPR.2015.7298640},  ISSN={1063-6919},  month={06},}
+@misc{r11,
+    title={Robust Physical-World Attacks on Deep Learning Models},
+    author={Kevin Eykholt and Ivan Evtimov and Earlence Fernandes and Bo Li and Amir Rahmati and Chaowei Xiao and Atul Prakash and Tadayoshi Kohno and Dawn Song},
+    year={2017},
+    eprint={1707.08945},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@misc{r12,
+    title={Adversarial examples in the physical world},
+    author={Alexey Kurakin and Ian Goodfellow and Samy Bengio},
+    year={2016},
+    eprint={1607.02533},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r13,
+    title={The Limitations of Deep Learning in Adversarial Settings},
+    author={Nicolas Papernot and Patrick McDaniel and Somesh Jha and Matt Fredrikson and Z. Berkay Celik and Ananthram Swami},
+    year={2015},
+    eprint={1511.07528},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@misc{r14,
+    title={Audio Adversarial Examples: Targeted Attacks on Speech-to-Text},
+    author={Nicholas Carlini and David Wagner},
+    year={2018},
+    eprint={1801.01944},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+@inproceedings{r15,
+author = {Tam, Jennifer and Hyde, Sean and Simsa, Jiri and Ahn, Luis Von},
+title = {Breaking Audio CAPTCHAs},
+year = {2008},
+isbn = {9781605609492},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {CAPTCHAs are computer-generated tests that humans can pass but current computer systems cannot. CAPTCHAs provide a method for automatically distinguishing a human from a computer program, and therefore can protect Web services from abuse by so-called "bots." Most CAPTCHAs consist of distorted images, usually text, for which a user must provide some description. Unfortunately, visual CAPTCHAs limit access to the millions of visually impaired people using the Web. Audio CAPTCHAs were created to solve this accessibility issue; however, the security of audio CAPTCHAs was never formally tested. Some visual CAPTCHAs have been broken using machine learning techniques, and we propose using similar ideas to test the security of audio CAPTCHAs. Audio CAPTCHAs are generally composed of a set of words to be identified, layered on top of noise. We analyzed the security of current audio CAPTCHAs from popular Web sites by using AdaBoost, SVM, and k-NN, and achieved correct solutions for test samples with accuracy up to 71\%. Such accuracy is enough to consider these CAPTCHAs broken. Training several different machine learning algorithms on different types of audio CAPTCHAs allowed us to analyze the strengths and weaknesses of the algorithms so that we could suggest a design for a more robust audio CAPTCHA.},
+booktitle = {Proceedings of the 21st International Conference on Neural Information Processing Systems},
+pages = {1625–1632},
+numpages = {8},
+location = {Vancouver, British Columbia, Canada},
+series = {NIPS'08}
+}
+@inproceedings{r16,
+author = {Vaidya, Tavish and Zhang, Yuankai and Sherr, Micah and Shields, Clay},
+title = {Cocaine Noodles: Exploiting the Gap between Human and Machine Speech Recognition},
+year = {2015},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {Hands-free, voice-driven user input is gaining popularity, in part due to the increasing functionalities provided by intelligent digital assistances such as Siri, Cortana, and Google Now, and in part due to the proliferation of small devices that do not support more traditional, keyboard-based input.In this paper, we examine the gap in the mechanisms of speech recognition between human and machine. In particular, we ask the question, do the differences in how humans and machines understand spoken speech lead to exploitable vulnerabilities? We find, perhaps surprisingly, that these differences can be easily exploited by an adversary to produce sound which is intelligible as a command to a computer speech recognition system but is not easily understandable by humans. We discuss how a wide range of devices are vulnerable to such manipulation and describe how an attacker might use them to defraud victims or install malware, among other attacks.},
+booktitle = {Proceedings of the 9th USENIX Conference on Offensive Technologies},
+pages = {16},
+numpages = {1},
+location = {Washington, D.C.},
+series = {WOOT'15}
+}
+@inproceedings{r17,
+author = {Carlini, Nicholas and Mishra, Pratyush and Vaidya, Tavish and Zhang, Yuankai and Sherr, Micah and Shields, Clay and Wagner, David and Zhou, Wenchao},
+title = {Hidden Voice Commands},
+year = {2016},
+isbn = {9781931971324},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {Voice interfaces are becoming more ubiquitous and are now the primary input method for many devices. We explore in this paper how they can be attacked with hidden voice commands that are unintelligible to human listeners but which are interpreted as commands by devices.We evaluate these attacks under two different threat models. In the black-box model, an attacker uses the speech recognition system as an opaque oracle. We show that the adversary can produce difficult to understand commands that are effective against existing systems in the black-box model. Under the white-box model, the attacker has full knowledge of the internals of the speech recognition system and uses it to create attack commands that we demonstrate through user testing are not understandable by humans.We then evaluate several defenses, including notifying the user when a voice command is accepted; a verbal challenge-response protocol; and a machine learning approach that can detect our attacks with 99.8\% accuracy.},
+booktitle = {Proceedings of the 25th USENIX Conference on Security Symposium},
+pages = {513–530},
+numpages = {18},
+location = {Austin, TX, USA},
+series = {SEC'16}
+}
+@misc{r18,
+    title={Citation Count Analysis for Papers with Preprints},
+    author={Sergey Feldman and Kyle Lo and Waleed Ammar},
+    year={2018},
+    eprint={1805.05238},
+    archivePrefix={arXiv},
+    primaryClass={cs.DL}
+}
+@misc{r19,
+    title={Explaining and Harnessing Adversarial Examples},
+    author={Ian J. Goodfellow and Jonathon Shlens and Christian Szegedy},
+    year={2014},
+    eprint={1412.6572},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@misc{r20,
+    title={Explaining and Harnessing Adversarial Examples},
+    author={Ian J. Goodfellow and Jonathon Shlens and Christian Szegedy},
+    year={2014},
+    eprint={1412.6572},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@misc{r21,
+    title={Intriguing properties of neural networks},
+    author={Christian Szegedy and Wojciech Zaremba and Ilya Sutskever and Joan Bruna and Dumitru Erhan and Ian Goodfellow and Rob Fergus},
+    year={2013},
+    eprint={1312.6199},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r22,
+    title={Intriguing properties of neural networks},
+    author={Christian Szegedy and Wojciech Zaremba and Ilya Sutskever and Joan Bruna and Dumitru Erhan and Ian Goodfellow and Rob Fergus},
+    year={2013},
+    eprint={1312.6199},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r23,
+    title={Adversarial Attacks and Defences Competition},
+    author={Alexey Kurakin and Ian Goodfellow and Samy Bengio and Yinpeng Dong and Fangzhou Liao and Ming Liang and Tianyu Pang and Jun Zhu and Xiaolin Hu and Cihang Xie and Jianyu Wang and Zhishuai Zhang and Zhou Ren and Alan Yuille and Sangxia Huang and Yao Zhao and Yuzhe Zhao and Zhonglin Han and Junjiajia Long and Yerkebulan Berdibekov and Takuya Akiba and Seiya Tokui and Motoki Abe},
+    year={2018},
+    eprint={1804.00097},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r24,
+    title={Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks},
+    author={Nicolas Papernot and Patrick McDaniel and Xi Wu and Somesh Jha and Ananthram Swami},
+    year={2015},
+    eprint={1511.04508},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@misc{r25,
+    title={CycleGAN, a Master of Steganography},
+    author={Casey Chu and Andrey Zhmoginov and Mark Sandler},
+    year={2017},
+    eprint={1712.02950},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r26,
+    title={On Evaluating Adversarial Robustness},
+    author={Nicholas Carlini and Anish Athalye and Nicolas Papernot and Wieland Brendel and Jonas Rauber and Dimitris Tsipras and Ian Goodfellow and Aleksander Madry and Alexey Kurakin},
+    year={2019},
+    eprint={1902.06705},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+@misc{r27,
+    title={Unrestricted Adversarial Examples},
+    author={Tom B. Brown and Nicholas Carlini and Chiyuan Zhang and Catherine Olsson and Paul Christiano and Ian Goodfellow},
+    year={2018},
+    eprint={1809.08352},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@misc{r28,
+    title={Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods},
+    author={Nicholas Carlini and David Wagner},
+    year={2017},
+    eprint={1705.07263},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+@misc{r29,
+    title={Adversarial Examples Are Not Bugs, They Are Features},
+    author={Andrew Ilyas and Shibani Santurkar and Dimitris Tsipras and Logan Engstrom and Brandon Tran and Aleksander Madry},
+    year={2019},
+    eprint={1905.02175},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@incollection{r30,
+title = {ImageNet Classification with Deep Convolutional Neural Networks},
+author = {Alex Krizhevsky and Sutskever, Ilya and Hinton, Geoffrey E},
+booktitle = {Advances in Neural Information Processing Systems 25},
+editor = {F. Pereira and C. J. C. Burges and L. Bottou and K. Q. Weinberger},
+pages = {1097--1105},
+year = {2012},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf}
+}
+@misc{r31,
+    title={CommanderSong: A Systematic Approach for Practical Adversarial Voice Recognition},
+    author={Xuejing Yuan and Yuxuan Chen and Yue Zhao and Yunhui Long and Xiaokang Liu and Kai Chen and Shengzhi Zhang and Heqing Huang and Xiaofeng Wang and Carl A. Gunter},
+    year={2018},
+    eprint={1801.08535},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@misc{r32,
+    title={Towards Privacy and Security of Deep Learning Systems: A Survey},
+    author={Yingzhe He and Guozhu Meng and Kai Chen and Xingbo Hu and Jinwen He},
+    year={2019},
+    eprint={1911.12562},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@misc{r33,
+    title={Stealing Machine Learning Models via Prediction APIs},
+    author={Florian Tramèr and Fan Zhang and Ari Juels and Michael K. Reiter and Thomas Ristenpart},
+    year={2016},
+    eprint={1609.02943},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+
+@misc{r34,
+    title={Manipulating Machine Learning: Poisoning Attacks and Countermeasures for Regression Learning},
+    author={Matthew Jagielski and Alina Oprea and Battista Biggio and Chang Liu and Cristina Nita-Rotaru and Bo Li},
+    year={2018},
+    eprint={1804.00308},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@misc{r35,
+    title={Is feature selection secure against training data poisoning?},
+    author={Huang Xiao and Battista Biggio and Gavin Brown and Giorgio Fumera and Claudia Eckert and Fabio Roli},
+    year={2018},
+    eprint={1804.07933},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+@article{r36,
+author = {LeCun, Yann and Bengio, Y. and Hinton, Geoffrey},
+year = {2015},
+month = {05},
+pages = {436-44},
+title = {Deep Learning},
+volume = {521},
+journal = {Nature},
+doi = {10.1038/nature14539}
+}
+@misc{r37,
+    title={Adversarial Machine Learning at Scale},
+    author={Alexey Kurakin and Ian Goodfellow and Samy Bengio},
+    year={2016},
+    eprint={1611.01236},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r38,
+    title={Distilling the Knowledge in a Neural Network},
+    author={Geoffrey Hinton and Oriol Vinyals and Jeff Dean},
+    year={2015},
+    eprint={1503.02531},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@misc{r39,
+    title={Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models},
+    author={Pouya Samangouei and Maya Kabkab and Rama Chellappa},
+    year={2018},
+    eprint={1805.06605},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r40,
+    title={Towards the Science of Security and Privacy in Machine Learning},
+    author={Nicolas Papernot and Patrick McDaniel and Arunesh Sinha and Michael Wellman},
+    year={2016},
+    eprint={1611.03814},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@misc{r41,
+  title={An intuitive introduction to Generative Adversarial Networks (GANs)},
+  author={Thalles Silva},
+  year={2018},
+  url = {https://www.freecodecamp.org/news/an-intuitive-introduction-to-generative-adversarial-networks-gans-7a2264a81394/},
+    note = {visited on 2020-09-01}
+  }
+@misc{r42,
+    title={Generative Adversarial Networks},
+    author={Ian J. Goodfellow and Jean Pouget-Abadie and Mehdi Mirza and Bing Xu and David Warde-Farley and Sherjil Ozair and Aaron Courville and Yoshua Bengio},
+    year={2014},
+    eprint={1406.2661},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@inproceedings{r43,
+author = {Barreno, Marco and Nelson, Blaine and Sears, Russell and Joseph, Anthony D. and Tygar, J. D.},
+title = {Can Machine Learning Be Secure?},
+year = {2006},
+isbn = {1595932720},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1128817.1128824},
+doi = {10.1145/1128817.1128824},
+abstract = {Machine learning systems offer unparalled flexibility in dealing with evolving input in a variety of applications, such as intrusion detection systems and spam e-mail filtering. However, machine learning algorithms themselves can be a target of attack by a malicious adversary. This paper provides a framework for answering the question, "Can machine learning be secure?" Novel contributions of this paper include a taxonomy of different types of attacks on machine learning techniques and systems, a variety of defenses against those attacks, a discussion of ideas that are important to security for machine learning, an analytical model giving a lower bound on attacker's work function, and a list of open problems.},
+booktitle = {Proceedings of the 2006 ACM Symposium on Information, Computer and Communications Security},
+pages = {16–25},
+numpages = {10},
+keywords = {computer networks, computer security, game theory, security metrics, intrusion detection, machine learning, adversarial learning, statistical learning, spam filters},
+location = {Taipei, Taiwan},
+series = {ASIACCS '06}
+}
+@misc{r44,
+    title={Practical Fast Gradient Sign Attack against Mammographic Image Classifier},
+    author={Ibrahim Yilmaz},
+    year={2020},
+    eprint={2001.09610},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@INPROCEEDINGS{r45,
+  author={G. E. {Dahl} and J. W. {Stokes} and L. {Deng} and D. {Yu}},
+  booktitle={2013 IEEE International Conference on Acoustics, Speech and Signal Processing}, 
+  title={Large-scale malware classification using random projections and neural networks}, 
+  year={2013},
+  volume={},
+  number={},
+  pages={3422-3426},
+  abstract={Automatically generated malware is a significant problem for computer users. Analysts are able to manually investigate a small number of unknown files, but the best large-scale defense for detecting malware is automated malware classification. Malware classifiers often use sparse binary features, and the number of potential features can be on the order of tens or hundreds of millions. Feature selection reduces the number of features to a manageable number for training simpler algorithms such as logistic regression, but this number is still too large for more complex algorithms such as neural networks. To overcome this problem, we used random projections to further reduce the dimensionality of the original input space. Using this architecture, we train several very large-scale neural network systems with over 2.6 million labeled samples thereby achieving classification results with a two-class error rate of 0.49\% for a single neural network and 0.42\% for an ensemble of neural networks.},
+  keywords={invasive software;neural nets;pattern classification;regression analysis;large-scale malware classification;random projections;neural networks;automated malware classification;logistic regression;Malware;Neural networks;Logistics;Training;Error analysis;Computers;Vectors;Malware Classification;Random Projections;Neural Network},
+  doi={10.1109/ICASSP.2013.6638293},
+  ISSN={2379-190X},
+  month={05},}
+  
+  @article{r46,
+   title={Evasion Attacks against Machine Learning at Test Time},
+   ISBN={9783642387098},
+   ISSN={1611-3349},
+   url={http://dx.doi.org/10.1007/978-3-642-40994-3_25},
+   DOI={10.1007/978-3-642-40994-3_25},
+   journal={Lecture Notes in Computer Science},
+   publisher={Springer Berlin Heidelberg},
+   author={Biggio, Battista and Corona, Igino and Maiorca, Davide and Nelson, Blaine and Šrndić, Nedim and Laskov, Pavel and Giacinto, Giorgio and Roli, Fabio},
+   year={2013},
+   pages={387–402}
+}
+@article{r47,
+  title={Multi-column deep neural network for traffic sign classification},
+  author={Dan C. Ciresan and U. Meier and Jonathan Masci and J. Schmidhuber},
+  journal={Neural networks : the official journal of the International Neural Network Society},
+  year={2012},
+  volume={32},
+  pages={
+          333-8
+        }
+}
+@misc{r48,
+    title={Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks},
+    author={Jun-Yan Zhu and Taesung Park and Phillip Isola and Alexei A. Efros},
+    year={2017},
+    eprint={1703.10593},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@inproceedings{r49,
+author = {Dalvi, Nilesh and Domingos, Pedro and Mausam and Sanghai, Sumit and Verma, Deepak},
+title = {Adversarial Classification},
+year = {2004},
+isbn = {1581138881},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1014052.1014066},
+doi = {10.1145/1014052.1014066},
+abstract = {Essentially all data mining algorithms assume that the data-generating process is independent of the data miner's activities. However, in many domains, including spam detection, intrusion detection, fraud detection, surveillance and counter-terrorism, this is far from the case: the data is actively manipulated by an adversary seeking to make the classifier produce false negatives. In these domains, the performance of a classifier can degrade rapidly after it is deployed, as the adversary learns to defeat it. Currently the only solution to this is repeated, manual, ad hoc reconstruction of the classifier. In this paper we develop a formal framework and algorithms for this problem. We view classification as a game between the classifier and the adversary, and produce a classifier that is optimal given the adversary's optimal strategy. Experiments in a spam detection domain show that this approach can greatly outperform a classifier learned in the standard way, and (within the parameters of the problem) automatically adapt the classifier to the adversary's evolving manipulations.},
+booktitle = {Proceedings of the Tenth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+pages = {99–108},
+numpages = {10},
+keywords = {naive Bayes, cost-sensitive learning, spam detection, integer linear programming, game theory},
+location = {Seattle, WA, USA},
+series = {KDD '04}
+}
+@misc{r50,
+    title={"In vivo" spam filtering: A challenge problem for data mining},
+    author={Tom Fawcett},
+    year={2004},
+    eprint={cs/0405007},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI}
+}
+@misc{r51,
+    title={Adversarial examples in the physical world},
+    author={Alexey Kurakin and Ian Goodfellow and Samy Bengio},
+    year={2016},
+    eprint={1607.02533},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r52,
+    title={Synthesizing Robust Adversarial Examples},
+    author={Anish Athalye and Logan Engstrom and Andrew Ilyas and Kevin Kwok},
+    year={2017},
+    eprint={1707.07397},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@misc{r53,
+  title={Model Hacking ADAS to Pave Safer Roads for Autonomous Vehicles},
+  author={Steve Povolny, Shivangee Trivedi},
+  year={2020},
+  url = {https://www.mcafee.com/blogs/other-blogs/mcafee-labs/model-hacking-adas-to-pave-safer-roads-for-autonomous-vehicles/},
+    note = {visited on 2020-09-01}
+  }
+@misc{r54,
+    title={Robust Physical-World Attacks on Deep Learning Models},
+    author={Kevin Eykholt and Ivan Evtimov and Earlence Fernandes and Bo Li and Amir Rahmati and Chaowei Xiao and Atul Prakash and Tadayoshi Kohno and Dawn Song},
+    year={2017},
+    eprint={1707.08945},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@misc{r55,
+    title={Towards Evaluating the Robustness of Neural Networks},
+    author={Nicholas Carlini and David Wagner},
+    year={2016},
+    eprint={1608.04644},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR}
+}
+@article{r56,
+   title={A General Framework for Adversarial Examples with Objectives},
+   volume={22},
+   ISSN={2471-2574},
+   url={http://dx.doi.org/10.1145/3317611},
+   DOI={10.1145/3317611},
+   number={3},
+   journal={ACM Transactions on Privacy and Security},
+   publisher={Association for Computing Machinery (ACM)},
+   author={Sharif, Mahmood and Bhagavatula, Sruti and Bauer, Lujo and Reiter, Michael K.},
+   year={2019},
+   month={07},
+   pages={1–30}
+}
+@misc{r57,
+  title={Hidden Secrets That The Burger King ‘Autopilot Whopper’ Teaches Us About Tesla And Self-Driving Cars},
+  author={Lance Eliot},
+  year={2020},
+  url = {https://www.forbes.com/sites/lanceeliot/2020/07/06/hidden-secrets-that-the-burger-king-autopilot-whopper-teaches-us-about-tesla-and-self-driving-cars/#6f38310af5a8
+},
+    note = {visited on 2020-09-01}
+  }
+  @misc{r58,
+    title={MobileNetV2: Inverted Residuals and Linear Bottlenecks},
+    author={Mark Sandler and Andrew Howard and Menglong Zhu and Andrey Zhmoginov and Liang-Chieh Chen},
+    year={2018},
+    eprint={1801.04381},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+@INPROCEEDINGS{r59,  author={J. {Deng} and W. {Dong} and R. {Socher} and L. {Li} and  {Kai Li} and  {Li Fei-Fei}},  booktitle={2009 IEEE Conference on Computer Vision and Pattern Recognition},   title={ImageNet: A large-scale hierarchical image database},   year={2009},  volume={},  number={},  pages={248-255},  abstract={The explosion of image data on the Internet has the potential to foster more sophisticated and robust models and algorithms to index, retrieve, organize and interact with images and multimedia data. But exactly how such data can be harnessed and organized remains a critical problem. We introduce here a new database called “ImageNet”, a large-scale ontology of images built upon the backbone of the WordNet structure. ImageNet aims to populate the majority of the 80,000 synsets of WordNet with an average of 500-1000 clean and full resolution images. This will result in tens of millions of annotated images organized by the semantic hierarchy of WordNet. This paper offers a detailed analysis of ImageNet in its current state: 12 subtrees with 5247 synsets and 3.2 million images in total. We show that ImageNet is much larger in scale and diversity and much more accurate than the current image datasets. Constructing such a large-scale database is a challenging task. We describe the data collection scheme with Amazon Mechanical Turk. Lastly, we illustrate the usefulness of ImageNet through three simple applications in object recognition, image classification and automatic object clustering. We hope that the scale, accuracy, diversity and hierarchical structure of ImageNet can offer unparalleled opportunities to researchers in the computer vision community and beyond.},  keywords={computer vision;image resolution;image retrieval;Internet;multimedia computing;ontologies (artificial intelligence);trees (mathematics);very large databases;visual databases;ImageNet database;large-scale hierarchical image database;Internet;image retrieval;multimedia data;large-scale ontology;wordNet structure;image resolution;subtree;computer vision;Large-scale systems;Image databases;Explosions;Internet;Robustness;Information retrieval;Image retrieval;Multimedia databases;Ontologies;Spine},  doi={10.1109/CVPR.2009.5206848},  ISSN={1063-6919},  month={06},}
+
+@inbook{r60,
+author = {Montazzolli, Sérgio and Jung, Claudio},
+year = {2018},
+month = {09},
+pages = {593-609},
+title = {License Plate Detection and Recognition in Unconstrained Scenarios: 15th European Conference, Munich, Germany, September 8–14, 2018, Proceedings, Part XII},
+isbn = {978-3-030-01257-1},
+doi = {10.1007/978-3-030-01258-8_36}
+}
+@misc{r61,
+    title={Distilling the Knowledge in a Neural Network},
+    author={Geoffrey Hinton and Oriol Vinyals and Jeff Dean},
+    year={2015},
+    eprint={1503.02531},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+@misc{r62,
+    title={Towards a Robust Deep Neural Network in Texts: A Survey},
+    author={Wenqi Wang and Lina Wang and Run Wang and Zhibo Wang and Aoshuang Ye},
+    year={2019},
+    eprint={1902.07285},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+@misc{r63,
+    title={Conditional Deep Learning for Energy-Efficient and Enhanced Pattern Recognition},
+    author={Priyadarshini Panda and Abhronil Sengupta and Kaushik Roy},
+    year={2015},
+    eprint={1509.08971},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+
+@article{r64,
+   title={Quantum Neural Network States: A Brief Review of Methods and Applications},
+   volume={2},
+   ISSN={2511-9044},
+   url={http://dx.doi.org/10.1002/qute.201800077},
+   DOI={10.1002/qute.201800077},
+   number={7-8},
+   journal={Advanced Quantum Technologies},
+   publisher={Wiley},
+   author={Jia, Zhih‐Ahn and Yi, Biao and Zhai, Rui and Wu, Yu‐Chun and Guo, Guang‐Can and Guo, Guo‐Ping},
+   year={2019},
+   month={03},
+   pages={1800077}
+}
+
+
+
+
