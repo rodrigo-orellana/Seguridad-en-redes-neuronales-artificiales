@@ -46,9 +46,19 @@ La imagen muestra 6 resultados de ataques exitosos aplicados en un modelo CNN de
 </p>
 
 
-https://github.com/sergiomsilva/alpr-unconstrained
-https://github.com/quangnhat185/Plate_detect_and_recognize
 
+
+### Referencias clasificador victima utilizado
+
+* [alpr-unconstrained](https://github.com/sergiomsilva/alpr-unconstrained)  
+* [Plate_detect_and_recognize](https://github.com/quangnhat185/Plate_detect_and_recognize)  
+
+
+
+ # Documentación 
+
+ Las fuentes de la documentación creada en LaTeX se encuentra en el siguiente link:  
+[Documentación LaTeX](/docs/)  
 
 
 <p align="center">
